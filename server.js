@@ -5,7 +5,7 @@ const ejs = require('ejs');
 const cookieParser = require('cookie-parser');
 const sequelize = require('sequelize');
 const mysql2 = require('mysql2');
-
+require('dotenv').config();
 
 
 const app = express();
