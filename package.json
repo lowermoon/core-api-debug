@@ -1,0 +1,28 @@
+{
+  "name": "api-skill-shift",
+  "version": "1.0.0",
+  "description": "An API that contains all the core program of Skill Shift Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "SkillShift Staff",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-cache": "^0.1.1",
+    "express-session": "^1.17.3",
+    "localstorage": "^1.0.1",
+    "mysql2": "^3.6.3",
+    "nanoid": "^3.3.7",
+    "nodemon": "^3.0.1",
+    "redis": "^4.6.10",
+    "sequelize": "^6.34.0",
+    "socket.io": "^4.7.2"
+  }
+}

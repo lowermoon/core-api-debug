@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito&family=Poppins&family=Roboto:wght@300&family=Varela+Round&display=swap');
+
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.font-nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-varela {
+    font-family: 'Varela Round', sans-serif;
+}
+
+#sidebar_kiri {
+    transition: ease-in-out;
+    transition-duration: .3s;
+}
+
+
+#sidebar_kiri.closed {
+    width: 10%;
+    transition: ease-in-out;
+    transition-duration: .3s;
+}
+
+#sidebar_kanan.closed {
+    transform: translateX(100%)
+}
+
+#users_data_dropdown {
+    height: 24px;
+    transition: ease-in-out;
+    transition-duration: .3s;
+}
+
+#users_data_dropdown:focus {
+    height: 200px;
+    transition: ease-in-out;
+    transition-duration: .3s;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="relative w-full h-screen overflow-hidden">
+    <%- include('navbar') %>
+    <div class="flex w-full h-full">
+        <%- include('left_sidebar') %>
+        <article class="px-10 py-5 relative w-full h-full overflow-auto">
+            <h1 class="font-nunito font-bold w-fit text-transparent bg-clip-text bg-gradient-to-r from-zinc-900 to-rose-500 text-6xl tracking-tighter">
+                Welcome to Control Panel 
+            </h1>
+            <hr class="my-5 opacity-0">
+            <p class="font-roboto text-zinc-700 text-2xl">
+                Here you can setup all the data in the server, such as <b>Freelancer Data</b>, <b>Logs</b>, etc
+            </p>
+            <button onclick="fetch_data()">
+                Fetch Data
+            </button>
+            <p id="test_data_fetch" class="font-nunito font-bold"></p>
+        </article>
+    </div>
+    
+    <script src="/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    
+</body>
+</html>
