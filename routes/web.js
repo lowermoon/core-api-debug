@@ -3,7 +3,7 @@ const cookieParser = require('cookie-parser');
 const model_admin = require('../models/admin');
 // const db_connect = require('../config/database');
 // const model_admin = require('./models/admin');
-const model_consumer = require('./models/consumer');
+// const model_consumer = require('./models/consumer');
 
 const web_routes = express.Router()
 .get('/control', (req, res) => {
