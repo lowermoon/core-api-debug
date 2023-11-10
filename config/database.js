@@ -2,7 +2,7 @@ const sequelize = require('sequelize');
 const mysql2 = require('mysql2');
 
 const db_connect = new sequelize('db_skillshift', 'root', '', {
-    host: 'localhost',
+    host: '34.101.71.233',
     dialect: 'mysql'
 });
 
